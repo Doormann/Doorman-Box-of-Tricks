@@ -5,7 +5,7 @@ The tool can either be deployed to a target machine (after gaining access) or ru
 More tools can be added if need be. Most of the tools have generic commands they run. Edit to your hearts content. 
 
 **Note** :
-This program required python to be installed on your machine (or the targets).
+This program requires python to be installed on your machine (or the targets).
 
 # Open those doors!!!
 
