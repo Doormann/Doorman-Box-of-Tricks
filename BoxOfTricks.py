@@ -45,7 +45,7 @@ def gobuster():
 
 def nmap():
     target = input("Enter the target IP or hostname: ")
-    command = f"nmap -p- -T4 --min-rate=1000 {target} -oN -A nmap_results.txt"
+    command = f"nmap -p- -T4 --min-rate=1000 {target} -A -oN nmap_results.txt"
     run_command(command)
 
 def linpeas():
