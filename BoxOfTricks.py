@@ -42,7 +42,12 @@ def gobuster():
     wordlist = input("Enter the path to the wordlist: ")
     command = f"gobuster dir -u {url} -w {wordlist} -o gobuster_results.txt"
     run_command(command)
-
+    
+def ffuf():
+    url = input ("Enter the url, must be http: ")
+    command = f"ffuf -w /usr/share/wordlists/dirb/big.txt -H 'Host:FUZZ.{url}' -u 'http://{url}'"
+    run_command(command)
+    
 def nmap():
     target = input("Enter the target IP or hostname: ")
     command = f"nmap -p- -T4 --min-rate=1000 {target} -A -oN nmap_results.txt"
@@ -116,17 +121,19 @@ def main():
 
         if choice == '1':
             gobuster()
-        elif choice == '2':
-            nmap()
+        elif choice '2':
+            ffuf()
         elif choice == '3':
-            linpeas()
+            nmap()
         elif choice == '4':
-            winpeas()
+            linpeas()
         elif choice == '5':
+            winpeas()
+        elif choice == '6':
             SQLMap()
-        elif choice == "6":
+        elif choice == "7":
             version_scan()
-        elif choice == '7':
+        elif choice == '8':
             print("Exiting...")
             break
         else:
