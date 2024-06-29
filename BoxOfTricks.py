@@ -124,9 +124,14 @@ def version_scan():
 
 def Basic_Cheat_Sheet():
     Cheat_sheet = print(r"""
-    Upgrade shell to tty: python3 -c 'import pty; pty.spawn('/bin/bash')'
-    Writeable permission? *Linux: echo $PATH
-    SUID Libraries *Linux: find / -perm -4000 2>/dev/null
+    Upgrade shell to tty: 
+    python3 -c 'import pty; pty.spawn('/bin/bash')'
+    subv
+    Writeable permission? *Linux: 
+    echo $PATH
+    
+    SUID Libraries *Linux: 
+    find / -perm -4000 2>/dev/null
     """)
     wait_for_keypress()
 
