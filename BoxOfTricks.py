@@ -135,7 +135,7 @@ def main():
 
         if choice == '1':
             gobuster()
-        elif choice '2':
+        elif choice == '2':
             ffuf()
         elif choice == '3':
             nmap()
@@ -147,7 +147,9 @@ def main():
             SQLMap()
         elif choice == "7":
             version_scan()
-        elif choice == '8':
+        elif choice == "8":
+            Basic_Cheat_Sheet()
+        elif choice == '9':
             print("Exiting...")
             break
         else:
