@@ -9,7 +9,8 @@ This program requires python to be installed on your machine (or the targets). T
 
 # Open those doors!!!
 
-![image](https://github.com/Doormann/Doorman-Box-of-Tricks/assets/103082286/1b1b7a34-b2d4-4a3d-8c06-f7494bd61d3a)
+![image](https://github.com/Doormann/Doorman-Box-of-Tricks/assets/103082286/332c38bd-6444-47d2-9840-61cbbf0cc2ef)
+
 
 # Downloading the program
 Clone the repo.
