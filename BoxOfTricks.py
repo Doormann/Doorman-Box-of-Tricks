@@ -59,7 +59,7 @@ def nmap():
 def linpeas():
     command = "curl -Ls https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh | sh"
     run_command(command)
-     wait_for_keypress()
+    wait_for_keypress()
 
 def winpeas():
     command = "powershell -c \"IEX(New-Object Net.WebClient).DownloadString('https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEAS.bat')\""
