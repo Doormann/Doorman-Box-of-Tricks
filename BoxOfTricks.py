@@ -128,7 +128,7 @@ def Basic_Cheat_Sheet():
     Writeable permission? *Linux: echo $PATH
     SUID Libraries *Linux: find / -perm -4000 2>/dev/null
     """)
-    
+    wait_for_keypress()
 
 def main():
     while True:
