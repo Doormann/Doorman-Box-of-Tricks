@@ -29,12 +29,14 @@ def show_menu():
          
 
     1. Gobuster Directory Enumeration
-    2. Nmap Port Scan
-    3. Linpeas (Run on cracked Linux system)
-    4. Winpeas (Run on cracked Windows system)
-    5. SQLMap
-    6. Software Version Scan (Windows / Linux)
-    7. Exit
+    2. Subdomain Fuzzing (FFUF)
+    3. Nmap Port Scan
+    4. Linpeas (Run on cracked Linux system)
+    5. Winpeas (Run on cracked Windows system)
+    6. SQLMap
+    7. Software Version Scan (Run on Windows / Linux)
+    8. Cheat Sheet
+    9. Exit
     """)
 
 def gobuster():
