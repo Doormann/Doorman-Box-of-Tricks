@@ -7,6 +7,8 @@ More tools can be added if need be. Most of the options have generic commands th
 **Note** :
 This program requires python to be installed on your machine (or the targets). This program is also best used within a offensive security Linux OS like Kali. Many of the tools are pre-loaded witin Kali so it will be easier to use this tool witin Kali.
 
+Stay responsible. 
+
 # Open those doors!!!
 
 ![image](https://github.com/Doormann/Doorman-Box-of-Tricks/assets/103082286/332c38bd-6444-47d2-9840-61cbbf0cc2ef)
