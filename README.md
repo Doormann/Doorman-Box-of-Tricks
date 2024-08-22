@@ -25,5 +25,5 @@ cd Doorman-Box-of-Tricks
 ```
 Run the program.
 ```bash
-python3 Doorman-BoxOfTricks.py
+python3 BoxOfTricks.py
 ```
