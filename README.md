@@ -1,4 +1,5 @@
 # Doorman's Box of Tricks
+***FOR EDUCATIONAL USE ONLY***
 
 A very simple tool that automates enumeration.
 The tool can either be deployed to a target machine (after gaining access) or run on your local machine.
@@ -11,8 +12,7 @@ Stay responsible.
 
 # Open those doors!!!
 
-![image](https://github.com/Doormann/Doorman-Box-of-Tricks/assets/103082286/332c38bd-6444-47d2-9840-61cbbf0cc2ef)
-
+![image](https://github.com/user-attachments/assets/a44d1d1a-55ac-4465-9c8a-0f26c6a271e0)
 
 # Downloading the program
 Clone the repo.
